@@ -1,0 +1,15 @@
+<html><head>
+<title>Teenagers Lounge | Giveaway | Powered by: ORION</title>
+<link rel="stylesheet" href="/static/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body><div><div class="bug"><form><div class="form-group">
+<label>Your Discord ID :</label>
+<br><br>
+<input placeholder="719198415740862534" required>
+</div></form>
+<button class="submit" style="width:36%" onclick='top.location="//youtu.be/dQw4w9WgXcQ"'>Submit</button>
+</div></div></body>
+
+</html>

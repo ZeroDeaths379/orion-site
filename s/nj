@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<script>if(document.addEventListener){document.addEventListener("DOMContentLoaded",function(){window.location.href="https://orion-bot.xyz/"})};</script>
+<meta charset=UTF-8 />
+<meta name=viewport content="width=device-width, initial-scale=1.0" />
+<title>ORION</title>
+<link rel=icon href=/images/logo.ico type=image/x-icon />
+<meta property=og:site_name content=ORION>
+<meta property=og:title content="ORION | A Multipurpose Discord bot">
+<meta property=og:image content=https://orion-bot.xyz/images/logo.png>
+<meta property=og:image:type content=image/png>
+<meta name=description content="Orion Is A discord Bot With Features like: Music, Economy, Moderation, Levelling, Giveaways and much more!!, Invite Me now!!!!">
+<meta property=og:description content="Orion Is A discord Bot With Features like: Music, Economy, Moderation, Levelling, Giveaways and much more!! Invite Me now!!!!">
+<meta name=theme-color content=#5663f7>
+<style>*{overflow-x:hidden}html{font-family:Arial;background-color:#23272a;scroll-behavior:smooth}button:focus{border:0;outline:0}.container{margin-left:15%;margin-right:15%;user-select:none}.titleColumn{margin-top:-23px;margin-bottom:6%;width:100%;height:auto;text-align:center}.titleH1{color:#fff;font-family:Helvetica;font-style:normal;font-weight:700;font-size:3.3em}.titleText{font-size:1.5em;margin-top:-.6em}.imgSize{animation:mover 2s linear infinite;width:15em;height:15em;padding:65px 0 20px 0}.homepageButton{width:150px;height:45px;color:#000;font-weight:700;background-color:#fff;padding:8px 24px;text-align:center;text-decoration:none;display:inline-block;margin:14px -4px 2px 0;cursor:alias;font-size:16px;border:0;border-radius:5px;font-family:sans-serif}.homepageButton:hover{background-color:#a9a9a9}button:focus{border:0;outline:0}.homepageInviteButton{width:150px;height:45px;color:#fff;font-weight:700;background-color:#000;padding:8px 24px;text-align:center;text-decoration:none;display:inline-block;margin:14px 24px 2px 0;cursor:alias;font-size:16px;border:0;border-radius:5px;font-family:sans-serif}.homepageInviteButton:hover{background-color:#1c1c1c}.featuresColumn{float:left;width:50%;height:133px;margin-bottom:16px}.customTitle{color:#fff;padding-top:1%;font-size:2.15em}.customText{font-family:Roboto,sans-serif;padding-right:10%;color:#fff;font-size:1.15em;font-weight:400}.levelTitle{color:#7289da;padding-top:15%;font-size:2.15em}.levelText{font-family:Roboto,sans-serif;padding-right:10%;color:#fff;font-size:1.15em;font-weight:400}@media screen and (max-width:1300px){.container{margin:10%}}@media screen and (max-width:1200px){.container{margin:5%}.featuresColumn{height:325px}}@media screen and (max-width:768px){.featuresColumn{width:100%;height:auto;margin:10px}.titleH1{font-size:40px}.homepageButton{margin:14px 7px 4px 7px}.homepageInviteButton{margin:14px 7px 4px 7px}}@media screen and (max-width:568px){.homepageButton{margin:5px}.homepageInviteButton{margin:5px}}.container{margin-top:1px;margin-bottom:1px}.commands{float:left;color:#000;width:100%;height:82vh;overflow-x:hidden}.row:after{display:table;clear:both}@media screen and (max-width:1500px){.container{margin-left:10%;margin-right:10%}}@media screen and (max-width:1200px){.container{margin-left:5%;margin-right:5%}}@media screen and (max-width:1050px){.container{margin-left:2%;margin-right:2%}}</style>
+</head>
+<body>
+<p style=text-align:center;background-color:#eb8888>You are
+seeing this page because, ORION website uses JavaScript to run some of the
+functions. JavaScript is currently disabled/not supported by your browser.
+Please enable JavaScript in your browser and refresh :).</p>
+<div class=container>
+<div class=row>
+<div class=titleColumn>
+<img src=/images/logo.png alt="Orion Logo" class=imgSize />
+<h1 class=titleH1>A SIMPLE
+<span style=color:#008cef>MULTIPURPOSE</span>
+DISCORD BOT</h1>
+<a href="https://discord.com/api/oauth2/authorize?client_id=761909793572257813&amp;permissions=8&amp;scope=bot%20applications.commands" target=_blank rel=noopener><button class=homepageInviteButton>Invite Bot</button></a>
+<a href=https://discord.gg/2emaWgXcU2 target=_blank rel=noopener><button class=homepageButton>Bot Server</button></a>
+</div>
+</div>
+<div class=row>
+<div class=featuresColumn>
+<h1 class=customTitle>100+ Commands</h1>
+<p class=customText>Bot has 100+ Amazing and unique user friendly
+Commands.</p>
+</div>
+<div class=featuresColumn>
+<h1 class=customTitle>99.99% Uptime</h1>
+<p class=customText>Bot is available 24/7/365, so dont worry of bot
+getting offline, your server protection will never stop!!</p>
+</div>
+<div class=featuresColumn>
+<h1 class=customTitle>One Bot does it all!!</h1>
+<p class=levelText>Get all the features you are looking for in one
+bot. No more clogging your server with huundreds of bots,One bot
+does it all</p>
+</div>
+<div class=featuresColumn>
+<h1 class=customTitle>Trusted by over 2,42,219 Users</h1>
+<p class=levelText>Bot is in over 100+ server and is trusted by over
+200000+ users so what are you waiting for invite now!!</p>
+</div>
+</div>
+</div>
+</body>
+</html>

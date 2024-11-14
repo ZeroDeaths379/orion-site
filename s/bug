@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>ORION</title>
+<link rel="stylesheet" href="/static/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+<script>window.addEventListener("DOMContentLoaded",function(){var h=document.getElementById("my-form");var f=document.getElementById("status");function g(){h.reset();f.classList.add("success");f.innerHTML="Submitted Successfully!"}function e(){f.classList.add("error");f.innerHTML="Oops! There was a problem."}h.addEventListener("submit",function(b){b.preventDefault();var a=new FormData(h);ajax(h.method,h.action,a,g,e)})});function ajax(i,g,l,j,h){var k=new XMLHttpRequest();k.open(i,g);k.setRequestHeader("Accept","application/json");k.onreadystatechange=function(){if(k.readyState!==XMLHttpRequest.DONE){return}if(k.status===200){j(k.response,k.responseType)}else{h(k.status,k.response,k.responseType)}};k.send(l)}var onSuccess=function(a){document.getElementsByTagName("button")[0].style.display="block";document.getElementsByClassName("Expired")[0].style.display="none"};var expired=function(a){document.getElementsByTagName("button")[0].style.display="none";document.getElementsByClassName("Expired")[0].style.display="block"};</script>
+</head>
+<body>
+<div>
+<div class="bug">
+<div id="status"></div>
+<form action="https://formspree.io/f/xgedovek" method="POST" id="my-form">
+<div class="form-group">
+<label for="discordid">Your Discord ID :</label>
+<br><br>
+<input type="number" id="discordid" name="discordid" placeholder="719198415740862534" required="" pattern="[0-9]{10,20}">
+</div>
+<br>
+<div class="form-group">
+<label for="bug">Explain the bug :</label>
+<br><br>
+<textarea name="bug" id="bugmsg" cols="30" rows="5" minlength="50" placeholder="Bot isn't responding to my messages and... (minimum 50 words)" required=""></textarea>
+</div>
+<br>
+<div class="h-captcha" data-sitekey="72903e2b-04b7-4b24-bfc8-448b90202495" data-theme="dark" data-callback="onSuccess" data-expired-callback="expired"></div>
+<h3 class="Expired" style="display:none;text-align:center">Captcha Expired</h3>
+<button type="submit" class="submit" style="width:89%;display:none">Submit Bug</button>
+</form>
+</div>
+</div>
+</body>
+</html>
